@@ -13,7 +13,7 @@ public class Player implements Runnable {
     }
     @Override
     public void run() {
-        try {//
+        try {
             sequencer = MidiSystem.getSequencer();
         } catch (MidiUnavailableException e) {
             e.printStackTrace();
